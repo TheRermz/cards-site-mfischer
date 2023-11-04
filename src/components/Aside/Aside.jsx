@@ -11,13 +11,9 @@ const Aside = () => {
     <AsideStyled>
       <ul>
         <li onClick={() => handleClick(1)}>1</li>
-        <li onClick={() => handleClick(2)}>2</li>
-        <li onClick={() => handleClick(3)}>3</li>
-        <li onClick={() => handleClick(4)}>4</li>
-        <li onClick={() => handleClick(5)}>5</li>
-        <li onClick={() => handleClick(6)}>6</li>
-        <li onClick={() => handleClick(7)}>7</li>
         <li onClick={() => handleClick(8)}>8</li>
+        <li onClick={() => handleClick(12)}>12</li>
+        <li onClick={() => handleClick(16)}>16</li>
       </ul>
     </AsideStyled>
   );
